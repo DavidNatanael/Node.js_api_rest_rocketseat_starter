@@ -1,0 +1,23 @@
+{
+  "name": "Node.js_api_rest_rocketseat_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidNatanael/Node.js_api_rest_rocketseat_starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidNatanael/Node.js_api_rest_rocketseat_starter/issues"
+  },
+  "homepage": "https://github.com/DavidNatanael/Node.js_api_rest_rocketseat_starter#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
