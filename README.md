@@ -1,1 +1,2 @@
-# Node.js_api_rest_rocketseat_starter
+# Node.js api_rest da rocketseat starter
+Projeto desenvolvido no curso de Node.js. Foram utilizados para o desenvolvimento do projeto:  express, cors, mongoose, mongoose-paginate, require-dir, nodemon, mongodb.
