@@ -7,10 +7,12 @@ module.exports = {
     /**
      * metodo para listar os dados
      * criado função assincrona para dar select no bd
+     * usado paginate para criar paginação com limite de 10 itens na página
      * como resposta é enviado um json com os dados resgatados
      */ 
     async index(req, res) {
-        const products = await Product.find();
+        const { page = 1 } = req.query;
+        const products = await Product.paginate({},  { page, limit: 10 });
         return res.json(products);
     },
 
